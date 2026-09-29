@@ -73,6 +73,16 @@ npm publish                  # 发布 @mini-tang/gongwen-writing
 "source": { "source": "npm", "package": "@mini-tang/gongwen-writing" }
 ```
 
+## 如何定制（贴近本单位）
+
+不同单位对公文格式、术语、语气的要求不同。三种方式，从简到繁：
+
+1. **对话里直接给材料（最省事）**：写的时候把你单位的范文 / 术语表 / 格式要求贴进来或 `@` 文件，skill 会以它为准、模仿其风格。
+2. **加进 `references/unit/`（作者 / fork 者适用）**：把你单位的 `.md` 材料放进 `skills/gongwen-writing/references/unit/`，skill 写作时会优先参考。适合你自己维护、或 fork 本仓库改成单位专属版。
+3. **fork 本仓库**：改完后重新发布成你自己的插件。
+
+> 注意：直接修改"已安装插件"目录里的文件，插件更新时会被覆盖，不推荐。
+
 ## 许可
 
 MIT
