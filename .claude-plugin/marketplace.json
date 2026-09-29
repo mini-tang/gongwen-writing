@@ -1,0 +1,16 @@
+{
+  "$schema": "https://www.schemastore.org/claude-code-marketplace.json",
+  "name": "mini-tang-gongwen",
+  "description": "mini-tang 的公文写作插件市场",
+  "owner": {
+    "name": "mini-tang"
+  },
+  "plugins": [
+    {
+      "name": "gongwen-writing",
+      "source": "./",
+      "description": "机关公文与事务文书写作助手",
+      "version": "1.0.0"
+    }
+  ]
+}

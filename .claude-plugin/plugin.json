@@ -1,0 +1,14 @@
+{
+  "name": "gongwen-writing",
+  "version": "1.0.0",
+  "description": "机关公文与事务文书写作助手：工作总结、工作汇报、述职报告、请示、通知、纪要、讲话稿等常见文种全覆盖。触发词：写总结、工作总结、工作汇报、述职、请示、通知、纪要、讲话稿、公文、汇报材料、机关文稿、写材料。",
+  "author": {
+    "name": "mini-tang",
+    "url": "https://github.com/mini-tang"
+  },
+  "homepage": "https://github.com/mini-tang/gongwen-writing",
+  "repository": "https://github.com/mini-tang/gongwen-writing",
+  "license": "MIT",
+  "keywords": ["claude", "claude-code", "plugin", "skill", "公文", "工作总结", "写作"],
+  "skills": ["./skills"]
+}

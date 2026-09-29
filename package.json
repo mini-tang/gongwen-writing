@@ -1,0 +1,24 @@
+{
+  "name": "@mini-tang/gongwen-writing",
+  "version": "1.0.0",
+  "description": "Claude Code plugin：机关公文与事务文书写作助手（工作总结、工作汇报、述职报告、请示、通知、纪要、讲话稿等）",
+  "license": "MIT",
+  "author": "mini-tang",
+  "keywords": ["claude", "claude-code", "plugin", "skill", "公文", "工作总结", "写作"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mini-tang/gongwen-writing.git"
+  },
+  "files": [
+    ".claude-plugin/",
+    "skills/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
